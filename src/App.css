@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: 0.3s ease;
+}
+
+:root {
+  /* Colors */
+  --primaryColor: hsl(94, 59%, 35%);
+  --hoverColor: hsl(94, 59%, 35%);
+  --paleGreen: hsl(94, 59%, 35%);
+  --whiteColor: hsl(94, 59%, 35%);
+  --blackColor: hsl(94, 59%, 35%);
+  --textColor: hsl(94, 59%, 35%);
+  --bgColor: hsl(94, 59%, 35%);
+  --greyText: hsl(94, 59%, 35%);
+  --inputColor: hsl(94, 59%, 35%);
+
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.2rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .9rem;
+  --smallFontSize: .8rem;
+  --smallestFontSize: .7rem;
+}
+
+html {
+  font-size: 90%;
+}
+
