@@ -1,10 +1,20 @@
-import React from 'react'
-import './body.scss'
+import React from "react";
+import Top from "./TopSection/Top";
+import Listing from "./ListingSection/Listing";
+import Activity from "./ActivitySection/Activity";
+import "./body.scss";
 
 const Body = () => {
   return (
-    <div>Body</div>
-  )
-}
+    <div className="mainContent">
+      <Top />
 
-export default Body
+      <div className="botton flex">
+        <Listing />
+        <Activity />
+      </div>
+    </div>
+  );
+};
+
+export default Body;
